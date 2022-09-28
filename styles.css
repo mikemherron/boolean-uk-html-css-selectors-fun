@@ -31,6 +31,7 @@ div.container-one p, .container-two p span {
 }
 div.container-one.container-two p {
     text-transform: uppercase;
+    text-transform:
     font-size: 10px;
 }
 div.container-one p, .container-two p, div.container-one.container-two p {
@@ -42,5 +43,5 @@ div.container-one p, .container-two p, div.container-one.container-two p {
     border-bottom-width: 1px;
 }
 p, p.paragraph, #paragraph, .container-one, .container-two, section.container-one.container-two p, section.container-one.container-two p span {
-    font-size: 28spx
+    font-size: 28px
 }
