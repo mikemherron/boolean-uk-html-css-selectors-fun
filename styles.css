@@ -29,9 +29,12 @@ div.container-one p, .container-two p span {
 .container-two p span {
     color: grey;
 }
-div.container-one.container-two p {
+div.container-one.container-two {
     text-transform: uppercase;
-    text-transform:
+    font-size: 10px;
+    font-weight: bold;
+}
+.container-one.container-two p {
     font-size: 10px;
 }
 div.container-one p, .container-two p, div.container-one.container-two p {
