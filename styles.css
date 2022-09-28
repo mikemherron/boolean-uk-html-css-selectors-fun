@@ -1,0 +1,46 @@
+p, section.container-one.container-two p, section.container-one.container-two p span {
+    color: orange;
+}
+p.paragraph {
+    color: green;
+}
+#paragraph {
+    color: red;
+}
+h1, h2, h3, h4 {
+    color: pink;
+}
+.container-one, .container-two {
+    color: black;
+}
+.container-two p, div.container-one.container-two p {
+    color: purple;
+}
+div.container-one p {
+    color: blue;
+    border-bottom: 2px;
+}
+div.container-one p, .container-two p span {
+    font-size: 12px;
+}
+.container-two p {
+    font-size: 15px;
+}
+.container-two p span {
+    color: grey;
+}
+div.container-one.container-two p {
+    text-transform: uppercase;
+    font-size: 10px;
+}
+div.container-one p, .container-two p, div.container-one.container-two p {
+    border-bottom-style: groove;
+    margin-left: 10px;
+    border-color: black;
+}
+.container-two p, div.container-one.container-two p {
+    border-bottom-width: 1px;
+}
+p, p.paragraph, #paragraph, .container-one, .container-two, section.container-one.container-two p, section.container-one.container-two p span {
+    font-size: 28spx
+}
