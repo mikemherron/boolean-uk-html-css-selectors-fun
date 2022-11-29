@@ -1,0 +1,62 @@
+* {
+/* placeholder stuff for now */
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: pink
+}
+
+
+
+p {
+    color: orange;
+    font-size: 28px;
+}
+
+.container-one {
+color:black;
+font-size: 28px;
+border-bottom: 2px solid black;
+}
+
+.container-one > p {
+    font-size: 12px;
+    color: blue;
+    margin-left: 10px
+}
+
+
+.container-two {
+color: black;
+font-size: 28px;
+}
+
+.container-two > p {
+color: purple;
+font-size: 15px;
+border-bottom: 1px solid black;
+}
+
+.container-two > p > span {
+    color: grey;
+    font-size: 12px;
+    }
+
+    .container-one.container-two {
+        color: purple;
+        font-size: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+
+        margin-left: 10px;
+        border-bottom: 1px solid black;
+    }
+
+
+   .container-one .container-two + .container-one .container-two  {
+        color:orange;
+        font-size: 28px;
+    }
