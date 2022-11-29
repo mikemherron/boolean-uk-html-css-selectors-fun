@@ -1,6 +1,6 @@
-* {
-/* placeholder stuff for now */
-}
+/* * {
+    /* placeholder stuff for now */
+
 
 h1,
 h2,
@@ -8,6 +8,8 @@ h3,
 h4 {
     color: pink
 }
+
+
 
 p {
     color: orange;
@@ -42,19 +44,28 @@ border-bottom: 1px solid black;
     color: grey;
     font-size: 12px;
     }
-
-    .container-one.container-two {
+    
+    .container-one.container-two  {
         color: purple;
         font-size: 10px;
         font-weight: bold;
         text-transform: uppercase;
-
+        
         margin-left: 10px;
         border-bottom: 1px solid black;
     }
-
-
-   .container-one .container-two + .container-one .container-two  {
+    
+    
+    section.container-one.container-two {
+        color:orange;
+        font-size: 28px;
+    }
+    section.container-one.container-two > p {
+        color:orange;
+        font-size: 28px;
+        text-transform: capitalize;
+    }
+    section.container-one.container-two > p > span {
         color:orange;
         font-size: 28px;
     }
