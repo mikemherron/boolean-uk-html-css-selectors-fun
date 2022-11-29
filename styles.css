@@ -1,0 +1,59 @@
+.Multiple-para {
+    color: orange;
+    font-size:28px
+}
+
+.paragraph {
+    font-size: 28px;
+    color:green
+}
+
+#paragraph {
+    color:red;
+    font-size: 28px;
+}
+
+h1, h2, h3, h4 {
+    color:pink
+}
+
+.container-one  {
+    font-size: 28px;
+}
+.container-one p {
+    font-size: 12px;
+    color:blue;
+    margin-left:10px;
+    border-bottom: solid 2px black
+}
+.container-two span{
+    font-size: 28px;
+}
+
+.container-two p {
+    font-size: 15px;
+    color: purple;
+    margin-left:10px;
+    border-bottom: solid 1px black;
+}
+.container-two p span {
+    font-size: 12px;
+    color: grey
+}
+div.container-one.container-two p{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+section.container-one.container-two p {
+    color: orange;
+    font-size: 28px;
+    margin-left: initial;
+    border-bottom: initial;
+}
+
+
+section.container-one.container-two p span {
+    color: orange;
+    font-size: 28px
+}
