@@ -1,0 +1,58 @@
+.orangeText {
+    color: orange;
+    font-size: 28px;
+}
+
+.paragraph {
+    color: green;
+    font-size: 28px;
+}
+
+#paragraph {
+    color: red;
+    font-size: 28px;
+}
+
+.pinkHeading {
+    color: pink;
+}
+
+.container-one p span {
+    color: blue;
+    font-size: 12px;
+}
+
+.container-one p {
+    margin-left: 10px;
+    border-bottom: solid 2px black;
+}
+
+.container-two p {
+    color: purple;
+    font-size: 15px;
+    margin-left: 10px;
+    border-bottom: solid 1px black;
+}
+
+.container-two p span{
+    color: grey;
+    font-size: 12px;
+}
+
+.container-one.container-two p{
+    color: purple;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 10px;
+    border-bottom: solid 1px black;
+}
+
+.container-one.container-two.different p{
+    all: initial;
+}
+
+.container-one.container-two.different p span{
+    color: orange;
+    font-size: 28px;
+}
