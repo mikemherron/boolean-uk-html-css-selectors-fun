@@ -1,0 +1,32 @@
+.orange p {
+  font-size: 28px;
+  color: orange;
+}
+
+.paragraph {
+  color: green;
+  font-size: 28px;
+}
+
+#paragraph {
+  color: red;
+  font-size: 28px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: pink;
+}
+
+.container-one {
+  font-size: 28px;
+}
+
+.container-one p {
+  color: blue;
+  font-size: 12px;
+  margin-left: 10px;
+  border-bottom: solid black 2px;
+}
