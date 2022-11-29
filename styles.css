@@ -1,0 +1,73 @@
+body {
+    color:orange;
+    font-size: 28px;
+}
+
+.paragraph {
+    color:green;
+    font-size:28px;
+
+}
+
+#paragraph {
+    color:red;
+    font-size:28px;
+
+}
+
+h1,h2,h3,h4 {
+    color:pink;
+}
+
+.container-one {
+    color:black;
+    font-size:28px;
+}
+
+
+.container-one> p {
+   font-size:12px;
+   border-bottom:solid 2px black;
+   margin-left: 10px;
+   color:blue;
+   
+}
+
+div.container-two {
+    color:black;
+    font-size:28px;
+}
+
+div.container-two> p {
+    color:purple;
+    font-size:15px;
+    margin-left: 10px;
+   
+    border-bottom: 1px;
+    border-bottom: solid black;
+
+}
+
+.container-two>p>span {
+    color:grey;
+    font-size:12px;
+    
+}
+
+.container-one.container-two {
+    color:purplr;
+    font-size:10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.container-one> p{
+    color:orange;
+    font-size:28px; 
+}
+
+section.container-one.container-two>p>span{
+    color:orange;
+    font-size:28px;
+}
