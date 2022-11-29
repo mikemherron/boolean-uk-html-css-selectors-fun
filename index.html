@@ -8,21 +8,20 @@
     <title>CSS Selector Fun</title>
 </head>
 <body>
-    <div class="orangeText">
-        <p>Make this text orange and 28px</p>
-        <p>Make this text orange and 28px</p>
-        <p>Make this text orange and 28px</p>
-    </div>
+    
+    <p>Make this text orange and 28px</p>
+    <p>Make this text orange and 28px</p>
+    <p>Make this text orange and 28px</p>
+
     <p class="paragraph">Make this text green and 28px</p>
     <p id="paragraph">Make this text red and 28px</p>
 
     <!-- How can we avoid repeating rule definitions for each heading type?-->
-    <div class="pinkHeading">
-        <h1>Make this heading pink</h1>
-        <h2>Make this heading pink</h2>
-        <h3>Make this heading pink</h3>
-        <h4>Make this heading pink</h4>
-    </div>
+    <h1>Make this heading pink</h1>
+    <h2>Make this heading pink</h2>
+    <h3>Make this heading pink</h3>
+    <h4>Make this heading pink</h4>
+
     <!-- The nested paragraphs in these div's contain some common styling,
         but also some slightly different styles. Is there a way we can avoid
         repeating the common styles in the stylesheet? -->
@@ -52,7 +51,7 @@
 
     <!-- How do you stop this element getting the styles from 
         the above elements? -->
-    <section class="container-one container-two different">
+    <section class="container-one container-two">
         <p>Make this <span>text orange and 28px.</span></p>
     </section>
 
