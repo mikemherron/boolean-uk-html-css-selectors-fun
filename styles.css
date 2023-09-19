@@ -21,7 +21,7 @@ h1,h2,h3,h4{
 
 .container-one > p{
     margin-left: 10px;
-    border-bottom: 2px;
+    border-bottom: 2px solid;
     font-size: 12px;
 }
 .container-one > p > span{
@@ -36,7 +36,7 @@ div:nth-of-type(3) > p:nth-of-type(1){
     color: purple;
     font-size: 15px;
     margin-left: 10px;
-    border-bottom: black 1px;
+    border-bottom: 1px solid black;
 }
 .container-two > p:nth-of-type(1) > span{
     color: grey;
@@ -47,7 +47,7 @@ div:nth-of-type(4) > p:nth-of-type(1){
     color: purple;
     font-size: 10px;
     margin-left: 10px;
-    border-bottom: black 1px;
+    border-bottom: 1px solid black;
     font-weight: bold;
     text-transform: uppercase;
 }
