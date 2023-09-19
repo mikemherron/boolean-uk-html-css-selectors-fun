@@ -12,3 +12,26 @@ p {
 h1, h2, h3, h4 {
     color: pink;
 }
+
+.container-one, .container-two {
+    font-size: 28px;
+}
+
+.container-one p {
+    color: blue;
+    font-size: 12px;
+    margin-left: 10px;
+    border-bottom: solid 2px black;
+}
+
+.container-two p {
+    color: purple;
+    font-size: 15px;
+    margin-left: 10px;
+    border-bottom: solid 1px black;
+}
+
+.container-two p span {
+    font-size: 12px;
+    color: gray;
+}
