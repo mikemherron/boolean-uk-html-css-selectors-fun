@@ -1,0 +1,56 @@
+body > p {
+    font-size: 28px;
+    color: orange;
+}
+
+.paragraph {
+    color: green;
+}
+
+#paragraph {
+    color: red;
+}
+
+h1, h2, h3, h4 {
+    color: pink;
+}
+
+div {
+    font-size: 28px;
+}
+
+.container-one > p {
+    margin-left: 10px;
+    border-bottom: 2px black solid;
+    color: blue;
+    font-size: 12px;
+}
+/* 
+.container-one span {
+    color: blue;
+    font-size: 12px;
+} */
+
+.container-two > p {
+    color: purple; 
+    font-size: 15px;
+    margin-left: 10px;
+    border-bottom: black 1px solid;
+}
+
+.container-two > p > span {
+    color: grey;
+    font-size: 12px;
+}
+
+.container-one.container-two > p {
+    font-size: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+
+}
+
+.container-one.container-two + .container-one.container-two > p, .container-one.container-two > p > span  {
+    font-size: 28px;
+    color: orange;
+}
