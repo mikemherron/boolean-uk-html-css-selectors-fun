@@ -1,0 +1,52 @@
+body > p, section {
+  color: orange;
+  font-size: 28px;
+}
+
+.paragraph {
+  color: green;
+}
+
+#paragraph {
+  color: red;
+}
+
+h1, h2, h3, h4 {
+  color: pink;
+}
+
+div {
+  font-size: 28px;
+}
+
+div > p {
+  color: purple;
+}
+
+.container-one, .container-two {
+  font-size: 28px;
+}
+
+div.container-one > p {
+  color: blue;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 10px;
+  border-bottom: 2px solid black;
+}
+
+div.container-two > p {
+  margin-left: 10px;
+  font-size: 15px;
+  border-bottom: solid 1px black;
+}
+
+div.container-two > p > span {
+  color: grey;
+  font-size: 12px;
+}
+
+div.container-one.container-two > p {
+  color: purple;
+  text-transform: uppercase;
+}
