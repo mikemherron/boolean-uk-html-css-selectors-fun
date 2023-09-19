@@ -53,10 +53,14 @@ section.container-one.container-two p {
     color: orange;
     font-size: 28px;
     border-bottom: 0px;
+    text-transform: none;
+    font-weight: normal
 }
 
 section.container-one.container-two p span {
     color: orange;
     font-size: 28px;
     border-bottom: 0px;
+    text-transform: none;
+    font-weight: normal
 }
