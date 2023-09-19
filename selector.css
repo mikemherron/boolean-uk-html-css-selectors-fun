@@ -1,0 +1,62 @@
+p {
+    color: orange;
+}
+
+.paragraph {
+    color: green;
+}
+
+#paragraph {
+    color: red;
+}
+
+h1, h2, h3, h4 {
+    color: pink;
+}
+
+.container-one {
+    font-size: 28px;
+    color: black;
+}
+
+.container-one > p {
+    color: blue;
+    font-size: 12px;
+    margin-left: 10px;
+    border-bottom: solid 2px black;
+}
+
+.container-two {
+    color: black;
+    font-size: 28px;
+}
+
+.container-two > p {
+    color: purple;
+    font-size: 15px;
+    margin-left: 10px;
+    border-bottom: solid 1px black;
+}
+
+.container-two > p > span {
+    color: grey;
+    font-size: 12px;
+}
+
+.container-one.container-two {
+color: purple;
+font-size: 10px;
+font-weight: bold;
+text-transform: uppercase;
+margin-left: 10px;
+}
+
+section.container-one.container-two  p,
+section.container-one.container-two  p  span {
+  color: orange;
+  font-size: 28px;
+  border-bottom: none;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: normal;
+}
