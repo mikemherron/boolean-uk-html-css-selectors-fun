@@ -1,0 +1,73 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+} */
+
+.orange {
+    color: orange;
+    font-size: 28px;
+}
+
+.paragraph {
+    color: green;
+    font-size: 28px;
+}
+
+#paragraph {
+    color: red;
+    font-size: 28px;
+}
+
+h1, h2, h3, h4{
+    color: pink;
+}
+
+.container-one {
+    font-size: 28px;
+}
+
+.container-one p {
+    color: blue;
+    font-size: 12px;
+    margin-left: 10px;
+    border-bottom: 1px solid;
+}
+
+.container-two p {
+    color: purple;
+    margin-left: 10px;
+    border-bottom: 1px solid;
+}
+
+.container-two p span {
+    color: grey;
+    font-size: 12px;
+}
+
+.container-two span {
+    font-size: 12px;
+}
+
+.container-one.container-two p{
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-left: 10px;
+    border-bottom: 1px solid;
+}
+
+section.container-one.container-two p{
+    color: orange;
+    font-size: 28px;
+    border: none;
+    text-transform: none;
+}
+
+section.container-one.container-two p span {
+    color: orange;
+    font-size: 28px;
+}
+
+
