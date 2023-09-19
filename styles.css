@@ -1,0 +1,46 @@
+p {
+    color: orange;
+    font-size: 28px;
+}
+.paragraph {
+    color: green;
+}
+#paragraph {
+    color: red;
+}
+
+h1, h2, h3, h4 {
+    color: pink;
+}
+
+.container-one, .container-two {
+    font-size: 28px;
+}
+
+div:nth-of-type(1) p {
+    color: blue;
+    font-size: 12px;
+    margin-left: 10px;
+    border-bottom: solid 2px black;
+}
+
+div:nth-of-type(2) p {
+    color: purple;
+    font-size: 15px;
+    margin-left: 10px;
+    border-bottom: solid 1px black;
+}
+
+div:nth-of-type(2) p span {
+    font-size: 12px;
+    color: gray;
+}
+
+div:nth-of-type(3)> p {
+    color: purple;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 10px;
+    border-bottom: solid 1px black;
+}
