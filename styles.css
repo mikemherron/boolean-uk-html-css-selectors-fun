@@ -1,0 +1,42 @@
+body > p{
+    color: orange;
+}
+
+body > p:nth-of-type(4){
+    color: rgb(0, 128, 0);
+}
+
+body > p:last-of-type{
+    color:red;
+}
+
+body > h1, h2, h3, h4{
+    color: pink;
+}
+
+div.container-one:first-of-type > p{
+    color: blue;
+    font-size: 0.5rem;
+    border-bottom: 1px solid black;
+}
+div.container-two:nth-last-of-type(2) > p{
+    color: purple;
+    font-size: 15px;
+}
+
+div.container-two:nth-last-of-type(2) > p > span{
+    color: gray;
+}
+
+div.container-two:nth-last-of-type(1) > p {
+    color: purple;
+    font-size: 10px;
+   text-transform: uppercase;
+   font-weight: bold;
+   border-bottom: 1px solid black;
+
+}
+
+section.container-one > p{
+    color: orange;
+}
