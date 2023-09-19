@@ -17,10 +17,10 @@
     <p id="paragraph">Make this text red and 28px</p>
 
     <!-- How can we avoid repeating rule definitions for each heading type?-->
-    <h1>Make this heading pink</h1>
-    <h2>Make this heading pink</h2>
-    <h3>Make this heading pink</h3>
-    <h4>Make this heading pink</h4>
+    <h1 class="heading">Make this heading pink</h1>
+    <h2 class="heading">Make this heading pink</h2>
+    <h3 class="heading">Make this heading pink</h3>
+    <h4 class="heading">Make this heading pink</h4>
 
     <!-- The nested paragraphs in these div's contain some common styling,
         but also some slightly different styles. Is there a way we can avoid
@@ -39,7 +39,7 @@
             <!-- We don't want to change all spans - just this one. How
                 can you use CSS to select this specific span, without modifying 
                 the HTML file? -->
-            <span>Make this text 12px and grey.</span>
+            <span class="cntr-two-spn">Make this text 12px and grey.</span>
         </p>
     </div>
 
@@ -51,8 +51,8 @@
 
     <!-- How do you stop this element getting the styles from 
         the above elements? -->
-    <section class="container-one container-two">
-        <p>Make this <span>text orange and 28px.</span></p>
+    <section class="container-one container-two ">
+        <p >Make this <span >text orange and 28px.</span></p>
     </section>
 
 </body>
