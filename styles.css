@@ -1,0 +1,55 @@
+.make-orange{
+    color:orange;
+}
+.paragraph{
+    color: green;
+    font-size: 28px;
+}
+#paragraph{
+    color: red;
+
+}
+.pink{
+    color: pink;
+}
+.container-one{
+    color: black;
+    font-size: 28px;
+}
+.make-blue{
+    color:blue;
+    font-size: 12px;
+    border-bottom: solid black 2px;
+    margin-left: 10px;
+}
+/* #make-purple{
+    color: purple;
+    margin-left: 10px;
+    border-bottom: solid black 2px ;
+} */
+.container-two > p{
+    color: purple;
+    margin-left: 10px;
+    border-bottom: solid black 2px ;
+    font-size: 15px;
+   
+}
+.container-two > p {
+font-size: 15px;
+}
+#make-grey{
+    color: grey;
+    font-size: 12px ;
+}
+#bold{
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+#orange{
+    font-size: 28px;
+    color: orange;
+    border-bottom: 0px;
+    margin: 0;
+    
+}
