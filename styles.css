@@ -18,14 +18,21 @@ h4{
 color: pink;
 }
 
-.container-one span{
+
+.container-one p,
+.container-one p span{
   color: blue;
   font-size: 12px;
+  margin-left: 10px; 
+  }
+
+.container-one{
+  color: black;
+  font-size: 28px;
 }
 
-.container-one p{
-  margin-left: 10px;
-  border-bottom: solid 2px; 
+  .container-one p{
+    border-bottom: solid 2px black;
   }
 
 .container-two p{
@@ -41,6 +48,8 @@ span{
 .container-two p{
   color: purple;
   font-size: 15px;
+  margin-left: 10px;
+ border-bottom: solid 1px; 
 }
 
 .container-two p span{
@@ -48,6 +57,12 @@ span{
   color: grey;
 }
 
+.container-one.container-two {
+  font-weight: bold;
+  color: purple;
+  font-size: 10px;
+  text-transform: uppercase;
+}
 
 section.container-one.container-two  p,
 section.container-one.container-two  p  span {
