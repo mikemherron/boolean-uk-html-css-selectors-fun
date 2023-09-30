@@ -1,0 +1,51 @@
+.different_color p {
+    color: orange;
+    font-size: larger;
+
+}
+header {
+    text-align: center;
+}
+
+.black p {
+    color: black;
+    font-size: larger;
+}
+
+.different_color > p:nth-of-type(4) {
+    color: green;
+}
+.different_color > p:nth-of-type(5) {
+    color: red;
+}
+
+.TheHeads {
+    color: pink;
+}
+
+.smaller {
+    position: relative;
+    top: 12px;
+    color: blue;
+}
+
+.smalls {
+    font-size: 11px;
+    position: relative;
+    top: 12px;
+    color: purple;
+}
+
+.smallas {
+    color: purple;
+    position: relative;
+    top: 12px;
+    font-size: 11px;
+}
+.yellow {
+    color: orange;
+}
+
+.no-bullet {
+    list-style-type: none;
+}
