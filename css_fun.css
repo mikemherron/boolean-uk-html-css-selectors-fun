@@ -1,51 +1,68 @@
 .different_color p {
     color: orange;
-    font-size: larger;
+    font-size: 28px;
 
 }
 header {
     text-align: center;
 }
 
-.black p {
-    color: black;
-    font-size: larger;
-}
-
 .different_color > p:nth-of-type(4) {
     color: green;
+    font-size: 28px;
 }
 .different_color > p:nth-of-type(5) {
     color: red;
+    font-size: 28px;
 }
 
 .TheHeads {
     color: pink;
+    font-size: 3s0px;
 }
 
 .smaller {
     position: relative;
     top: 12px;
     color: blue;
+    font-size: 12px;
+    margin-left: 10px;
+    border-bottom: solid 2px ;
 }
 
 .smalls {
-    font-size: 11px;
+    font-size: 15px;
     position: relative;
     top: 12px;
     color: purple;
+    border-bottom: solid 2px;
+    margin-left: 10px;
 }
 
 .smallas {
     color: purple;
     position: relative;
     top: 12px;
-    font-size: 11px;
+    font-size: 10px;
+    margin-left: 10px;
+    border-bottom: solid 1px black;
 }
+
+
 .yellow {
     color: orange;
+    font-size: 28px;
 }
 
 .no-bullet {
     list-style-type: none;
+}
+
+.border-text {
+    color: gray;
+    font-size: 10px;
+}
+
+.black-p {
+    font-size: 28px;
 }
