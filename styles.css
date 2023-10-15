@@ -1,0 +1,58 @@
+body {
+    font-size: 28px;
+}
+
+p {
+    color: orange;
+}
+
+.paragraph {
+    color: green;
+}
+
+#paragraph {
+    color: red;
+}
+
+h1, h2, h3, h4 {
+    color: pink;
+}
+
+
+.container-one > p {
+    color: blue;
+    font-size: 12px;
+    margin-left: 10px;
+    border-bottom: solid 2px black;
+}
+
+.container-two > p {
+    color: purple;
+    font-size: 15px;
+    margin-left: 10px;
+    border-bottom: solid 1px black;
+}
+
+.container-two > p > span {
+    color: grey;
+    font-size: 12px;
+}
+
+div.container-one.container-two > p {
+    color: purple;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+section.container-one.container-two > p {
+    color: orange;
+    font-size: 28px;
+    border-bottom: 0px;
+    margin-left: 0px;
+}
+
+section.container-one.container-two > p > span {
+    color: orange;
+    font-size: 28px;
+}
