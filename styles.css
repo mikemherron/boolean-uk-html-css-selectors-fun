@@ -1,0 +1,59 @@
+body > p{
+    color: orange;
+    font-size: 28px;
+}
+
+body > p:nth-of-type(4){
+    color: rgb(0, 128, 0);
+    font-size: 28px;
+}
+
+body > p:last-of-type{
+    color:red;
+    font-size: 28px;
+}
+
+body > h1, h2, h3, h4{
+    color: pink;
+   
+}
+
+.container-one > span{
+    font-size: 28px;
+}
+
+div.container-one:first-of-type > p{
+    color: blue;
+    font-size: 12px;
+    margin-left: 10px;
+    border-bottom: 2px solid black;
+}
+
+.container-two > span{
+    font-size: 28px;
+}
+div.container-two:nth-last-of-type(2) > p{
+    color: purple;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+div.container-two:nth-last-of-type(2) > p > span{
+    font-size: 12px;
+    color: gray;
+}
+
+div.container-two:nth-last-of-type(1) > p {
+    color: purple;
+    font-size: 10px;
+    margin-left: 10px;
+   text-transform: uppercase;
+   font-weight: bold;
+   border-bottom: 1px solid black;
+
+}
+
+section.container-one > p{
+    color: orange;
+    font-size: 28px;
+}
