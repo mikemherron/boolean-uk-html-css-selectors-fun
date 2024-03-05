@@ -1,4 +1,4 @@
-body p{
+body p, section.container-one.container-two{
     color: orange;
     font-size: 28px;
 }
@@ -21,7 +21,7 @@ div.container-one p {
     color: blue;
     font-size: 12px;
     margin-left: 10px;
-    border-bottom: 1px black solid;
+    border-bottom: 2px black solid;
 }
 
 div.container-two p {
@@ -44,9 +44,5 @@ div.container-one.container-two{
 }
 
 
-section.container-one.container-two{
-    color: orange;
-    font-size: 28px;
-}
 
 
