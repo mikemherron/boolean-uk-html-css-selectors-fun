@@ -66,4 +66,5 @@ section.container-one.container-two p,
 section.container-one.container-two span {
   color: orange;
   font-size: 28px;
+  font-weight: normal;
 }
