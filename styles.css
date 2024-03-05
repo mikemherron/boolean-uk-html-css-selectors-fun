@@ -1,0 +1,46 @@
+p, .container-one, .container-two, section.container-one.container-two p, section.container-one.container-two span {
+    font-size: 28px;
+}
+
+p, section.container-one.container-two p, section.container-one.container-two span {
+    color: orange;
+}
+
+.paragraph {
+    color: green;
+}
+
+#paragraph {
+    color: red;
+}
+
+h1, h2, h3, h4 {
+    color: pink;
+}
+
+div.container-one p {
+    color: blue;
+    font-size:  12px;
+
+    margin-left: 10px;
+    border-bottom: 2px solid black;
+}
+
+div.container-two p {
+    color: purple;
+    font-size:  15px;
+
+    margin-left: 10px;
+    border-bottom: 1px solid black;
+}
+
+.container-two p span {
+    color: grey;
+    font-size:  12px;
+}
+
+div.container-one.container-two p {
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
