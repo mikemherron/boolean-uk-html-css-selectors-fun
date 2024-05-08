@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-size: 28px;
+    box-sizing: border-box;
+    color: orange;
+}
+.paragraph {
+    color: green;
+}
+#paragraph {
+    color: red;
+}
+h1 {
+    color: pink;
+}
+h2 {
+    color: pink;
+}
+h3 {
+    color: pink;
+}
+h4 {
+    color: pink;
+}
+.container-one {
+    color: black;
+}
+.container-one p {
+    color:blue;
+    font-size: 12px;
+    margin-left: 10px;
+    border-bottom: 2px solid black;
+}
+.container-two {
+    color: black;
+}
+.container-two p {
+    color: purple;
+    font-size: 15px;
+    margin-left: 10px;
+    border-bottom: 1px solid black;
+}
+.container-two p span {
+    color: grey;
+    font-size: 12px;
+}
+div.container-one.container-two {
+    font-size: 10px;
+    font-weight: bold ;
+    text-transform: uppercase;
+}
+section.container-one.container-two p {
+    color: orange;
+    font-size: 28px;
+    border-bottom: 0cap;
+    margin: 0;
+}
+section.container-one.container-two p span {
+    color: orange;
+    font-size: 28px;
+}
