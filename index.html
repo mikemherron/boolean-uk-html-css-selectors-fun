@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,28 +8,30 @@
     <link rel="stylesheet" href="styles.css" />
     <title>CSS Selector Fun</title>
 </head>
+
 <body>
-    
-    <p>Make this text orange and 28px</p>
-    <p>Make this text orange and 28px</p>
-    <p>Make this text orange and 28px</p>
+
+    <p class="orange">Make this text orange and 28px</p>
+    <p class="orange">Make this text orange and 28px</p>
+    <p class="orange">Make this text orange and 28px</p>
 
     <p class="paragraph">Make this text green and 28px</p>
     <p id="paragraph">Make this text red and 28px</p>
 
     <!-- How can we avoid repeating rule definitions for each heading type?-->
-    <h1>Make this heading pink</h1>
-    <h2>Make this heading pink</h2>
-    <h3>Make this heading pink</h3>
-    <h4>Make this heading pink</h4>
+    <h1 class="pink">Make this heading pink</h1>
+    <h2 class="pink">Make this heading pink</h2>
+    <h3 class="pink">Make this heading pink</h3>
+    <h4 class="pink">Make this heading pink</h4>
 
     <!-- The nested paragraphs in these div's contain some common styling,
         but also some slightly different styles. Is there a way we can avoid
         repeating the common styles in the stylesheet? -->
     <div class="container-one">
-        This text should stay black and 28px
+        <span> This text should stay black and 28px </span>
         <p>
-            Make this text <span>blue</span> and 12px. Make this paragraph have 10px left margin and a black 2px bottom border.
+            Make this text <span>blue</span> and 12px. Make this paragraph have 10px left margin and a black 2px bottom
+            border.
         </p>
     </div>
 
@@ -46,14 +49,16 @@
     <!-- Is there a way to define a CSS selector that matches
         elements that have multiple classes only? -->
     <div class="container-one container-two">
-        <p>This text should be purple, 10px, all capitals and bold. Make this paragraph have 10px left margin and black 1px bottom border.</p>
+        <p>This text should be purple, 10px, all capitals and bold. Make this paragraph have 10px left margin and black
+            1px bottom border.</p>
     </div>
 
     <!-- How do you stop this element getting the styles from 
         the above elements? -->
     <section class="container-one container-two">
-        <p>Make this <span>text orange and 28px.</span></p>
+        <p><span>Make this text orange and 28px.</span></p>
     </section>
 
 </body>
+
 </html>
