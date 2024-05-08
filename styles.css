@@ -1,0 +1,59 @@
+.orange {
+  color: orange;
+  font-size: 28px;
+}
+.paragraph {
+  color: green;
+  font-size: 28px;
+}
+#paragraph {
+  color: red;
+  font-size: 28px;
+}
+.pink {
+  color: pink;
+}
+div.container-one {
+  color: black;
+  font-size: 28px;
+}
+div.container-one p {
+  color: blue;
+  font-size: 12px;
+  border-bottom: 2px solid black;
+  margin-right: 10px;
+}
+
+div.container-two span {
+  font-size: 28px;
+  color: black;
+}
+/* purple and 15px. Make this paragraph have 10px left margin
+ and a black 1px bottom border. */
+div.container-two p {
+  color: purple;
+  font-size: 15px;
+  margin-left: 10px;
+  border-bottom: 1px solid black;
+}
+/* Make this text 12px and grey */
+.container-two p span {
+  color: grey;
+  font-size: 12px;
+}
+/* <p>This text should be purple, 10px, all capitals and bold. Make this paragraph have 10px left margin and black
+            1px bottom border.</p> */
+.container-one.container-two p {
+    color: purple;
+    font-size: 10px;
+    text-transform: uppercase;
+    /* font-weight: bold; */
+    margin-left: 10px;
+    border-bottom: 1px solid black;
+}
+
+.container-one.container-two p span {
+  /* <p>Make this <span>text orange and 28px.</span></p> */
+  color: orange;
+  font-size: 28px;
+}
