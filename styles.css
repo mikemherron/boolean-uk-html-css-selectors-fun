@@ -1,0 +1,80 @@
+h1 {
+    color: pink;
+    font-size: 28px;
+}
+h2 {
+    color: pink;
+    font-size: 28px;
+}
+h3 {
+    color: pink;
+    font-size: 28px;
+}
+h4 {
+    color: pink;
+    font-size: 28px;
+}
+
+body{
+    color: orange;
+    font-size: 28px;
+}
+
+.paragraph{
+    color: green;
+    font-size: 28px;
+}
+
+#paragraph{
+    color: red;
+    font-size: 28px; 
+}
+
+
+.container-one, .container-two span:first-child {
+    color: black;
+    font-size: 28px;
+}
+
+/* Specific styles for the first paragraph in container-one */
+.container-one p {
+    color: blue;
+    font-size: 12px;
+    margin-left: 10px;
+    border-bottom: 2px solid black;
+}
+
+/* Specific styles for the paragraph in container-two */
+.container-two p {
+    color: purple;
+    font-size: 15px;
+    margin-left: 10px;
+    border-bottom: 1px solid black;
+}
+
+/* Targeting only the span inside the second paragraph in container-two */
+.container-two p span {
+    color: grey;
+    font-size: 12px;
+}
+
+/* Using a CSS selector for elements with multiple specific classes */
+.container-one.container-two p {
+    color: purple;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 10px;
+    border-bottom: 1px solid black;
+}
+
+/* Preventing section elements from inheriting styles */
+section.container-one.container-two, section.container-one.container-two p {
+    all: revert;
+}
+
+/* Specific style for span inside the section */
+section.container-one.container-two span {
+    color: orange;
+    font-size: 28px;
+}
